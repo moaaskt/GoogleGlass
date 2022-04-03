@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+    <title>Document</title>
+    <meta charset="UTF-8">
+   <script>
+       function powerlight(){
+          document.getElementById('lightz').src = "..//projeto-glass-html5/_imagens/lampada-acesa.jpg";
+       }
+       function apagarluz(){
+           document.getElementById('lightz').src = "..//projeto-glass-html5/_imagens/lampada-apagada.jpg"
+       }
+       function crec(){
+           document.getElementById('lightz').src = "..//projeto-glass-html5/_imagens/lampada-quebrada.jpg"
+       }
+   </script>
+    <h1>Acender a lampada</h1>
+    <img src="..//projeto-glass-html5/_imagens/lampada-apagada.jpg" id="lightz" onmousemove="powerlight()" onmouseout="apagarluz()" onclick="crec()">
+</head>
+<body>
+    
+</body>
+</html>

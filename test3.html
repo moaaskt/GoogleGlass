@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Document</title>
+        <meta charset="UTF-8">
+       <script>
+           var quebrada = false;
+           function mudaLampada(tipo){
+              
+               if (!quebrada){
+                   document.getElementById('lightz').src = "_imagens/" + tipo + ".jpg";
+                   if(tipo == 'lampada-quebrada'){
+                    quebrada = true;
+                   }
+
+               }
+           }
+       
+       </script>
+        <h1>Acender a lampada</h1>
+        <img src= arquivo; id="lightz" onmousemove="mudaLampada('lampada-acesa')" onmouseout="mudaLampada('lampada-apagada')" onclick="mudaLampada('lampada-quebrada')">
+    </head>
+<body>
+    
+</body>
+</html>
